@@ -1,0 +1,58 @@
+<!DOCTYPE html >
+<html lang="en-US">
+<head>
+<link rel="icon" type="image/png" href="favicon.png">
+    <title>
+        Game Graphics
+    </title>
+</head>
+<link rel = "stylesheet" type ="text/css" href="index.css">
+<link rel = "stylesheet" type ="text/css" href="side.css">
+<link rel = "stylesheet" type ="text/css" href="bar.css">
+    
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+<script src="extra.js"></script>
+    
+<body>
+    <audio id= "audio1" autoplay loop onloadeddata="setHalfVolume()">
+    <source src="POL-code-geek-short.wav"  type="audio/mp3">
+</audio>
+    
+    <div class = "bar">
+        <ul class ="nav">
+            <li><a href="index.html">Intro</a></li>
+            <li><a href="evoland.html">Evoland</a></li>
+			<li><a href="tennis.html">Tennis for Two</a></li>
+            <li><a href="spacewar.html" class ="active">SpaceWar!</a></li>
+            <li><a href="pong.html">Pong</a></li>
+            <li><a href="doom.html">Doom, Quake, Mortal Kombat</a></li>
+            <li><a href="future.html">So what? Now and the future</a></li>
+        </ul>
+    <div class="footer">
+        Made by Taraka Pranav.R
+        </div>
+    </div>
+    
+<div class="container">
+	<div class = "side">
+        <iframe class="video" src="https://www.youtube.com/embed/MvGzAvNLcew"></iframe>
+        
+        <p class="desc">
+            It was a very primitive game that still obeyed the laws of physics. Remember, it was made during a time when video games were considered useless. 
+        </p>
+	</div>
+	
+	<div class = "content">
+	<h1>Spacewar (1962)</h1>
+        <p>
+        Fast forwarding to the release of SpaceWar! In 1961, SpaceWar! Was one of the first very successful video games and was developed by MIT after it received a DEC PDP-1 computer. It was a 2D, 8-bit game where a player would control one of 2 spaceships and would gravitate around a central star, trying to shoot down the other player. It was very popular within the university and proved to be the pioneer of video game graphics since it inspired a whole lot of developers to make other games.
+        </p>
+	</div>
+</div>
+<div class="border"></div>
+<div class = "border" id="down"></div>
+</body>
+
+</html>

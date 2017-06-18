@@ -1,0 +1,58 @@
+<!DOCTYPE html >
+<html lang="en-US">
+<head>
+<link rel="icon" type="image/png" href="favicon.png">
+    <title>
+        Game Graphics
+    </title>
+</head>
+<link rel = "stylesheet" type ="text/css" href="index.css">
+<link rel = "stylesheet" type ="text/css" href="side.css">
+<link rel = "stylesheet" type ="text/css" href="bar.css">
+    
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+<script src="extra.js"></script>
+    
+<body>
+    <audio id= "audio1" autoplay loop onloadeddata="setHalfVolume()">
+    <source src="POL-code-geek-short.wav"  type="audio/mp3">
+</audio>
+    
+    <div class = "bar">
+        <ul class ="nav">
+            <li><a href="index.html">Intro</a></li>
+            <li><a href="evoland.html">Evoland</a></li>
+			<li><a href="tennis.html">Tennis for Two</a></li>
+            <li><a href="spacewar.html">SpaceWar!</a></li>
+            <li><a href="pong.html" class ="active">Pong</a></li>
+            <li><a href="doom.html">Doom, Quake, Mortal Kombat</a></li>
+            <li><a href="future.html">So what? Now and the future</a></li>
+        </ul>
+    <div class="footer">
+        Made by Taraka Pranav.R
+        </div>
+    </div>
+    
+<div class="container">
+	<div class = "side">
+        <iframe class="video" src="https://www.youtube.com/embed/D-THUXZ1aE4"></iframe>
+        
+        <p class="desc">
+            The reason for Pong's simplicity isn't because it is an game style, it's just because of hardware limitations. Also, Pong was Atari's first game.
+        </p>
+	</div>
+	
+	<div class = "content">
+	<h1>Pong (1972)</h1>
+        <p>
+        Similarly, the release of Pong in 1972 for the Atari systems was a huge success, enticing more developers to join the game development community. It's graphics were still minimal.
+        </p>
+	</div>
+</div>
+<div class="border"></div>
+<div class = "border" id="down"></div>
+</body>
+
+</html>

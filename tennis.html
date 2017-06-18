@@ -1,0 +1,58 @@
+<!DOCTYPE html >
+<html lang="en-US">
+<head>
+<link rel="icon" type="image/png" href="favicon.png">
+    <title>
+        Game Graphics
+    </title>
+</head>
+<link rel = "stylesheet" type ="text/css" href="index.css">
+<link rel = "stylesheet" type ="text/css" href="side.css">
+<link rel = "stylesheet" type ="text/css" href="bar.css">
+    
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+<script src="extra.js"></script>
+    
+<body>
+    <audio id= "audio1" autoplay loop onloadeddata="setHalfVolume()">
+    <source src="POL-code-geek-short.wav"  type="audio/mp3">
+</audio>
+    
+    <div class = "bar">
+        <ul class ="nav">
+            <li><a href="index.html">Intro</a></li>
+            <li><a href="evoland.html">Evoland</a></li>
+			<li><a href="tennis.html" class ="active">Tennis for Two</a></li>
+            <li><a href="spacewar.html">SpaceWar!</a></li>
+            <li><a href="pong.html">Pong</a></li>
+            <li><a href="doom.html">Doom, Quake, Mortal Kombat</a></li>
+            <li><a href="future.html">So what? Now and the future</a></li>
+        </ul>
+    <div class="footer">
+        Made by Taraka Pranav.R
+        </div>
+    </div>
+    
+<div class="container">
+	<div class = "side">
+        <img class="video1" src="osilo.png">
+        <iframe class="video" src="https://www.youtube.com/embed/0lan34aLpdo"></iframe>
+        <p class="desc">
+            This game, although very famous, wasn't meant to a million-dollar idea - just a small showcase of the oscilloscope.
+        </p>
+	</div>
+	
+	<div class = "content">
+	<h1>Tennis for Two (1958)</h1>
+        <p>
+        Then came along "Tennis for two" by Physicist William Higinbotham in October 1958, a primitive tennis simulator game played on an oscilloscope-like device, which graphics like only had a green streak behind the ball. It was mean't to be a display at the Brookhaven National Laberatory.
+        </p>
+	</div>
+</div>
+<div class="border"></div>
+<div class = "border" id="down"></div>
+</body>
+
+</html>
